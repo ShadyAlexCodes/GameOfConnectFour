@@ -6,6 +6,7 @@ import edu.neumont.interfaces.HumanPlayer;
 import edu.neumont.interfaces.Player;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Game {
 
@@ -75,7 +76,7 @@ public class Game {
 
 
         // Reset Game
-        turn = 0;
+        turn = new Random().nextInt(0, 2);
         gameBoard.reset();
 
         Player winner = null;

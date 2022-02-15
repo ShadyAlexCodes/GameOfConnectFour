@@ -32,7 +32,7 @@ public class AIPlayer extends Player{
                     System.out.println("Location is not open");
                     Console.setColor(Console.RESET);
                     gameBoard.print();
-                    Thread.sleep(2000);
+                    Thread.sleep(1000);
                 } catch(InterruptedException ex) {
                     System.out.println("Error!");
                 }
