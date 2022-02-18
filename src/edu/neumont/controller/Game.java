@@ -60,7 +60,7 @@ public class Game {
                 players.add(new HumanPlayer(name, 'X'));
 
                 name = Console.getString("Enter the second player's name: ");
-                players.add(new HumanPlayer(name, 'X'));
+                players.add(new HumanPlayer(name, 'O'));
                 break;
             case PVC:
                 name = Console.getString("Enter a player name: ");

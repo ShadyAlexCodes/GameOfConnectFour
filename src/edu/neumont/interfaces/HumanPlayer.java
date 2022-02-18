@@ -23,13 +23,6 @@ public class HumanPlayer extends Player{
                 Console.setColor(Console.RESET);
                 gameBoard.print();
             }
-//            for(int i = 5; i >= 0; i--) {
-//                if(gameBoard.getBoard()[i][col] == ' ') {
-//                    gameBoard.getBoard()[i][col] = getSymbol();
-//                    open = true;
-//                    return;
-//                }
-//            }
         }
     }
 }
